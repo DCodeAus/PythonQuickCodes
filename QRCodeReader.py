@@ -1,4 +1,4 @@
-#pre requsitie
+#pre prerequisite
 #pip install pyqrcode
 #pip install pypng
 
