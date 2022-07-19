@@ -1,4 +1,4 @@
-#pre prerequisite
+#prerequisite components to be installed or code will not work
 #pip install pyqrcode
 #pip install pypng
 
