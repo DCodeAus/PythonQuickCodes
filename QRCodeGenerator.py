@@ -6,8 +6,9 @@ import pyqrcode
 import png
 from pyqrcode import QRCode
 
+
 #string for the QR code
-S = "www.geeksforgeeks.org"
+S = "www.google.com"
 
 #generate QR code
 url = pyqrcode.create(S)
