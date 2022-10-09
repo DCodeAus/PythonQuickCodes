@@ -1,7 +1,22 @@
-Simple Python projects
-The first program generates a QR code.
-The Picture QR code puts an image in the centre of the QR code.
+Package contains two Python QR code generator programs.
+Comments are within the python files for reference.
+1. pictureQRCodeGenerator.py
+Installation of two packages must be done before hand
+First two lines are the packages that need to be installed through running the command in the comments:
+pip install Pillow
+pip install qrcode
+Line 5 is the logo link, this pulls the logo image from the folder of the project 'PythonQuickCodes'
+Line 20 is the url required for the QR code to point to.
+Line 32 is for the user to set the backround color and line 29 mentions the colour of the QR code to be filled with, default set as black.
+The QR code is then saved as default name QRCodeName.png
+And prints a message when complete.
 
-For these they use two supplied parameters within the program, these could be changed to variables and gathering user inputs if required.
-At the moment, the two inputs are the website for the QR code to be generated from, and the path of the specific QR code files to be placed once generated.
-The output is saved as two different image types.
+
+2. QRCodeGenerator.py
+Installation of two packages must be done before hand
+First two lines are the packages that need to be installed through running the command in the comments:
+pip install pyqrcode
+pip install pypng
+
+This program is simple in that it only needs a URL or string for the QR code.
+The user then receives two outputs: one file in .png format and one file in .svg
