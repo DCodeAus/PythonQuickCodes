@@ -1,2 +1,5 @@
 myqr.png
 myqr.svg
+__pycache__
+.idea
+venv
